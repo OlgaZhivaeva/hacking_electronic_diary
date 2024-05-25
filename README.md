@@ -21,7 +21,6 @@ python manage.py shell
 ```commandline
 import random
 from datacenter.models import Schoolkid, Subject, Lesson, Mark, Chastisement, Commendation
-from django.core.exceptions import ObjectDoesNotExist, MultipleObjectsReturned
 from hacking_electronic_diary import get_child, fix_marks, del_note, create_commendation, get_subject, hacking
 ```
 
